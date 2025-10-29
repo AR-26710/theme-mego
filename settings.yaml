@@ -438,6 +438,7 @@ spec:
           id: subscribe
           key: subscribe
           label: 订阅模块
+          help: 依赖前置插件“文章订阅”，https://www.halo.run/store/apps/app-yldNX
           children:
             - $formkit: checkbox
               name: subscribe_enabled
